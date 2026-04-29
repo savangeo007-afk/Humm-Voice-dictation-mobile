@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485665074918",
+    "project_id": "humm-2cce3",
+    "storage_bucket": "humm-2cce3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485665074918:android:4c8ffb042e311ac6c89527",
+        "android_client_info": {
+          "package_name": "com.humm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWQglBzDfPPvIqr7cvl84zITXARhzSZe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

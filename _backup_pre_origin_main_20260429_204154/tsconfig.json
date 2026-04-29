@@ -1,0 +1,10 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "exclude": [
+    "__tests__",
+    "supabase/functions",
+    "android",
+    "ios",
+    "node_modules"
+  ]
+}

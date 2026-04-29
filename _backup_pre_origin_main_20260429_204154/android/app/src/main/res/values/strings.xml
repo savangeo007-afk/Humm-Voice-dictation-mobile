@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Humm</string>
+    <string name="accessibility_service_description">Humm uses this service to detect when you tap into a text field in any app, so it can show the floating dictation button for hands-free voice typing.</string>
+</resources>

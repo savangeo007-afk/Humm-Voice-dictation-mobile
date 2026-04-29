@@ -1,0 +1,22 @@
+<svg id="humm-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" class="w-full h-auto">
+<style>
+    @keyframes drawStroke { to { stroke-dashoffset: 0; } }
+    @keyframes fadeScaleUp { from { opacity: 0; transform: translateY(10px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    .bubble-path { stroke: #FFFFFF; stroke-width: 12; fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: drawStroke 1.2s ease-in-out forwards; }
+    .wave-path { stroke: #FFFFFF; stroke-width: 10; fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: drawStroke 1.2s ease-in-out 0.4s forwards; }
+    .text-path { fill: #FFFFFF; opacity: 0; transform-origin: center; animation: fadeScaleUp 0.8s ease-out 1s forwards; }
+</style>
+                <!-- Icon: Speech Bubble Outline -->
+                <path class="bubble-path" pathLength="100" d="M 415 130 C 365 50, 215 50, 165 130 C 125 200, 175 270, 225 290 Q 215 320, 210 335 Q 235 315, 250 290 C 315 280, 385 240, 405 200"/>
+
+                <!-- Icon: Inner Audio Wave -->
+                <path class="wave-path" pathLength="100" d="M 155 180 Q 165 170, 175 180 Q 185 190, 190 175 Q 195 160, 205 185 L 220 90 L 240 240 L 260 110 L 280 210 L 300 140 Q 315 200, 355 185 Q 390 170, 425 180"/>
+
+                <!-- Text: HUMM -->
+                <g class="text-path">
+                    <path d="M 455 130 h 25 v 35 h 30 v -35 h 25 v 100 h -25 v -40 h -30 v 40 h -25 z"/>
+                    <path d="M 555 130 L 580 130 L 580 190 A 15 15 0 0 0 610 190 L 610 130 L 635 130 L 635 190 A 40 40 0 0 1 555 190 Z"/>
+                    <path d="M 655 130 L 680 130 L 697.5 185 L 715 130 L 740 130 L 740 230 L 715 230 L 715 165 L 697.5 220 L 680 165 L 680 230 L 655 230 Z"/>
+                    <path d="M 760 130 L 785 130 L 802.5 185 L 820 130 L 845 130 L 845 230 L 820 230 L 820 165 L 802.5 220 L 785 165 L 785 230 L 760 230 Z"/>
+                </g>
+            </svg>
